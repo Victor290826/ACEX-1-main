@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFBA Paulo Afonso | Minicursos</title>
+    <script src="https://kit.fontawesome.com/898f59f198.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+    <link rel="stylesheet" href="cursos.css">
+</head>
+<body>
+    <header class="bg-primary">
+        <div class="container">
+            <div class="logo-container"><a href="../index.html"><img id="logo" class="logo" src="" alt=""></a></div>
+
+            <ul class="hamburguer-container hide" type="none">
+                <li class="hamburguer bg-quinary"></li>
+                <li class="hamburguer bg-quinary"></li>
+                <li class="hamburguer bg-quinary"></li>
+            </ul>
+
+            <nav class="navigation">
+                <ul type="none">
+                    <li><a class="nav-link color-primary" href="../index.html">Inicio</a></li>
+                    <li><a class="nav-link color-primary" href="../sobre-nos/sobre-nos.html">Sobre Nós</a></li>
+                    <li><a class="nav-link color-primary" href="./cursos.html">Minicursos</a></li>
+                    <li><a class="nav-link color-primary" href="../ebooks/ebooks.html">E-books</a></li>
+                </ul>
+            </nav>
+
+            <button class="theme-button">
+                
+            </button>
+        </div>
+        <nav class="navigation-mob">
+            <ul type="none">
+                <li><a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a class="nav-link" href="../sobre-nos/sobre-nos.html"><i class="fa-solid fa-circle-question"></i>Sobre Nós</a></li>
+                <li><a class="nav-link" href="../minicursos/cursos.html"><i class="fa-solid fa-play"></i> Minicursos</a></li>
+                <li><a class="nav-link" href="../ebooks/ebooks.html"><i class="fa-solid fa-book"></i> E-books</a></li>
+                <li>
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="topo" class="bg-quaternary">
+        <section class="hero">
+            <div class="container_hero">
+                <p class="titulohero color-primary">Mandacaru Tech - Extensão</p>
+                <h1 id="titulohero2" class="color-primary">Minicursos Disponíveis</h1>
+                <p class="herosubtitulo color-primary">
+                    Expanda seus conhecimentos com nossos <strong>minicursos</strong> gratuítos.
+                    Aprenda no seu ritmo com conteúdo de qualidade.
+                </p>
+            </div>
+        </section>
+
+<!-- adicao da funcionalidade de filtros para a pagina de cursos jsguys deixei um form ai p facilitar a vida de vcs -->
+
+        <section class="filtros-container">
+    <div class="principio">
+        <h4><strong>EXPLORE O CATÁLOGO</strong></h4>
+        <h1 class="color-primary">Encontre seu próximo minicurso</h1>
+
+        <div class="area-busca bg-senary">
+            <form class="filters__form bg-quaternary" action="#" method="get">
+                <input
+                    class="bg-quaternary color-primary"
+                    id="busca"
+                    type="text"
+                    placeholder="Digite o nome do minicurso"
+                />
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </form>
+
+            <h3 class="color-primary">Filtrar por área</h3>
+
+            <button class="btn-filtros bg-quaternary color-primary" id="todos">Todos</button>
+            <button class="btn-filtros bg-quaternary color-primary" id="design">Design</button>
+            <button class="btn-filtros bg-quaternary color-primary" id="banco">Banco de dados</button>
+            <button class="btn-filtros bg-quaternary color-primary" id="tecnologia">Tecnologia</button>
+            <button class="btn-filtros bg-quaternary color-primary" id="limpar">Limpar</button>
+
+            <hr>
+
+            <p><span id="contador-cursos">0</span> minicursos encontrados</p>
+        </div>
+    </div>
+</section>
+
+        <section id="cursos" class="catalogo">
+
+            <div class="container">
+                <!-- Cards dos cursos geral -->
+                <div class="cards_cursos bg" id="cards_cursos"></div>
+                
+                
+                <div class="carregar_mais">
+                    <button class="btn" type="button">Carregar mais</button>
+                </div>
+            </div>
+        </section>  
+    </main>
+
+    <footer class="bg-primary">
+        <div class="footer-container">
+            <div class="footer-col footer-logo">
+                <img id="logo-footer" class="logo" src="" alt="">
+            </div>
+            <div class="footer-col footer-logo">
+                <img id="logo-ifba" class="logo" src="" alt="">
+            </div>
+            <div class="footer-col">
+                <h3 class="color-primary">Redes Sociais</h3>
+                <p class="color-primary">Siga-nos nas redes sociais e fique por dentro das novidades</p>
+
+                <div class="redes">
+                    <a href="https://www.instagram.com/mandacarutech_ext/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram color-primary"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UChwzBb_n08AIxxpH6Plk7ZQ" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-youtube color-primary"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-desc">
+            <p class="color-primary">&copy; 2026 IFBA - Instituto Federal da Bahia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script type="module" src="../assets/js/cursos.js"></script>
+    <script type="module" src="../assets/js/script.js"></script>
+    </body>
+</html>

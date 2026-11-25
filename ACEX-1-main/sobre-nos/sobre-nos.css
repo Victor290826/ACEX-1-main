@@ -1,0 +1,385 @@
+@import url('../assets/css/variables.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* ── Hero ───────────────────────────────────────────── */
+.sc-hero {
+    padding: 64px 0 54px;
+    text-align: center;
+    border-bottom: 1px solid var(--cinza-claro);
+}
+
+.sc-hero.bg-dark-primary {
+    border-bottom-color: var(--borda-dark);
+}
+
+.sc-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-family: var(--poppins);
+    margin: 8px 0 14px;
+}
+
+.sc-hero p {
+    font-size: 1.125rem;
+    color: var(--cinza-texto);
+    max-width: 580px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ── Label reutilizável ─────────────────────────────── */
+.sc-label,
+.sc-projeto-label {
+    display: inline-block;
+    background-color: var(--verde-suave-bg);
+    padding: 5px 14px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--verde-escuro) !important;
+    margin-bottom: 12px;
+}
+
+/* ── Seção Projeto ACEX I ───────────────────────────── */
+.sc-projeto {
+    padding: 72px 0;
+}
+
+.sc-projeto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.sc-projeto-texto h2 {
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-family: var(--poppins);
+    margin-bottom: 18px;
+    line-height: 1.2;
+}
+
+.sc-projeto-texto p {
+    font-size: 1.02rem;
+    color: var(--cinza-texto);
+    line-height: 1.75;
+}
+
+/* Cards AC / AB / ON */
+.sc-projeto-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sc-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 22px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+
+.sc-card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-3px);
+}
+
+.sc-card-icon {
+    min-width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background-color: var(--verde-suave-bg);
+    color: var(--verde-escuro);
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--poppins);
+    flex-shrink: 0;
+}
+
+.sc-card h3 {
+    font-size: 1.05rem;
+    font-family: var(--poppins);
+    color: var(--produto-profundo);
+    margin-bottom: 4px;
+}
+
+.sc-card p {
+    font-size: 0.92rem;
+    color: var(--cinza-texto);
+    line-height: 1.55;
+}
+
+/* ── Seção Bacharelado ──────────────────────────────── */
+.sc-bacharelado {
+    padding: 72px 0;
+    text-align: center;
+}
+
+.sc-bacharelado h2 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-family: var(--poppins);
+    margin-bottom: 14px;
+}
+
+.sc-bach-desc {
+    font-size: 1.05rem;
+    color: var(--cinza-texto);
+    max-width: 640px;
+    margin: 0 auto 42px;
+    line-height: 1.65;
+}
+
+.sc-bach-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 22px;
+    text-align: left;
+}
+
+.sc-bach-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 26px 22px;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+
+.sc-bach-card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-4px);
+}
+
+.sc-bach-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: var(--verde-suave-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.sc-bach-icon i {
+    font-size: 1.3rem;
+    color: var(--verde-escuro);
+}
+
+.sc-bach-card h3 {
+    font-size: 1.05rem;
+    font-family: var(--poppins);
+    color: var(--produto-profundo);
+    margin-bottom: 8px;
+}
+
+.sc-bach-card p {
+    font-size: 0.92rem;
+    color: var(--cinza-texto);
+    line-height: 1.6;
+}
+
+/* ── Seção O que oferecemos ─────────────────────────── */
+.sc-conteudo {
+    padding: 72px 0;
+    text-align: center;
+}
+
+.sc-conteudo h2 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-family: var(--poppins);
+    margin-bottom: 14px;
+}
+
+.sc-oferta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.sc-oferta-item {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--cinza-claro);
+    border-radius: 16px;
+    padding: 24px 22px;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+}
+
+.sc-oferta-item:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-3px);
+}
+
+.sc-oferta-item > i {
+    font-size: 1.35rem;
+    color: var(--verde-escuro);
+    background-color: var(--verde-suave-bg);
+    min-width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.sc-oferta-item h3 {
+    font-size: 1.05rem;
+    font-family: var(--poppins);
+    color: var(--produto-profundo);
+    margin-bottom: 6px;
+}
+
+.sc-oferta-item p {
+    font-size: 0.92rem;
+    color: var(--cinza-texto);
+    line-height: 1.55;
+}
+
+/* ── Suporte ao Modo Escuro nos Cards ───────────────── */
+.bg-dark-quaternary .sc-card,
+.bg-dark-primary .sc-bach-card,
+.bg-dark-quaternary .sc-oferta-item {
+    background-color: var(--bg-dark-senary);
+    border-color: var(--borda-dark);
+}
+
+.bg-dark-quaternary .sc-card h3,
+.bg-dark-primary .sc-bach-card h3,
+.bg-dark-quaternary .sc-oferta-item h3 {
+    color: #F2F5F2;
+}
+
+/* ── CTA ────────────────────────────────────────────── */
+.sc-cta {
+    background: linear-gradient(135deg, var(--verde-escuro) 0%, #3F6111 100%);
+    padding: 76px 0;
+    text-align: center;
+}
+
+.sc-cta h2 {
+    font-size: clamp(1.65rem, 3vw, 2.45rem);
+    font-family: var(--poppins);
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.sc-cta p {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.88);
+    max-width: 500px;
+    margin: 0 auto 36px;
+    line-height: 1.65;
+}
+
+.sc-cta-botoes {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sc-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 13px 28px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    font-family: var(--poppins);
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.sc-cta-btn.primario {
+    background-color: #fff;
+    color: var(--verde-escuro);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.sc-cta-btn.primario:hover {
+    background-color: var(--bg-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.24);
+}
+
+.sc-cta-btn.secundario {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+}
+
+.sc-cta-btn.secundario:hover {
+    background-color: rgba(255, 255, 255, 0.14);
+    border-color: #fff;
+    transform: translateY(-2px);
+}
+
+/* ── Responsividade ─────────────────────────────────── */
+@media (max-width: 900px) {
+    .sc-projeto-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sc-hero {
+        padding: 44px 20px 38px;
+    }
+
+    .sc-projeto,
+    .sc-bacharelado,
+    .sc-conteudo,
+    .sc-cta {
+        padding: 54px 20px;
+    }
+
+    .sc-bach-cards,
+    .sc-oferta-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .sc-card {
+        flex-direction: column;
+    }
+
+    .sc-cta-botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sc-cta-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+}

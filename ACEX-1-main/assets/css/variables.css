@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+
+:root {
+    /* Tipografia */
+    --poppins: "Poppins", sans-serif;
+    --inter: "Inter", sans-serif;
+
+    /* Identidade Mandacaru Tech */
+    --verde-escuro: #527A19;
+    --verde-hover: #679422;
+    --verde-claro: #A7CF38;
+    --verde-suave-bg: rgba(103, 146, 39, 0.12);
+    --coral-destaque: #B8333A;
+
+    /* Tema Claro (Editorial Areia / Off-White) */
+    --bg-primary: #F8F4EA;
+    --bg-secondary: #FFFFFF;
+    --bg-tertiary: #EFE8D8;
+    --bg-quaternary: #FDFBF7;
+    --bg-senary: #FFFFFF;
+
+    /* Tema Escuro (Tech Grafite Esverdeado) */
+    --bg-dark-primary: #0D110E;
+    --bg-dark-secondary: #131915;
+    --bg-dark-quaternary: #101511;
+    --bg-dark-senary: #18201A;
+
+    /* Neutros e Bordas */
+    --cinza-texto: #525651;
+    --cinza-texto-dark: #A5B0A6;
+    --cinza-claro: #E4DEC9;
+    --borda-dark: #263128;
+    --produto-profundo: #181D19;
+
+    /* Elevação */
+    --shadow: 0 4px 20px rgba(24, 29, 25, 0.06);
+    --shadow-hover: 0 12px 28px rgba(82, 122, 25, 0.14);
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "titulo": "Descomplicando a Lógica de Programação",
+    "autor": "Lorena Rachel Santos de Souza",
+    "categoria": "Tecnologia",
+    "destaque": true,
+    "paginas": "74",
+    "imagem": "../assets/imgs/DescomplicandoALogicaDeProgramacao.png",
+    "descricao": "Aprenda os fundamentos do pensamento computacional, algoritmos e estruturas básicas para dar os primeiros passos na programação.",
+    "pdf": "../assets/pdf-ebooks/DescomplicandoaLógicadeProgramação.pdf"
+  },
+  {
+    "id": 2,
+    "titulo": "Git e GitHub",
+    "autor": "Maria Clara Leite Dantas e Myllena Sales Oliveira",
+    "categoria": "Tecnologia",
+    "destaque": true,
+    "paginas": "61",
+    "imagem": "../assets/imgs/Git e Github.png",
+    "descricao": "Guia prático de versionamento de código, controle de alterações e trabalho colaborativo utilizando Git e GitHub.",
+    "pdf": "../assets/pdf-ebooks/GiteGithub.pdf"
+  },
+  {
+    "id": 3,
+    "titulo": "Boas Práticas de Segurança Digital",
+    "autor": "Caroline Xavier de Santana e Gustavo Ramon Gomes Sandes",
+    "categoria": "Tecnologia",
+    "destaque": true,
+    "paginas": "47",
+    "imagem": "../assets/imgs/Boas Práticas de Segurança Digital.png",
+    "descricao": "Dicas essenciais para proteger seus dados pessoais, senhas, redes sociais e dispositivos no dia a dia digital.",
+    "pdf": "../assets/pdf-ebooks/Boas Práticas de Segurança Digital.pdf"
+  },
+  {
+    "id": 4,
+    "titulo": "A Lógica do Detetive: Desvendando o JavaScript",
+    "autor": "Dian Fritz Rodrigues Gama Sobrinho",
+    "categoria": "Tecnologia",
+    "destaque": true,
+    "paginas": "46",
+    "imagem": "../assets/imgs/Capa_ALógicadoDetetiveDesvendandoojavascript-1.png",
+    "descricao": "Explore os conceitos fundamentais do JavaScript por meio de desafios práticos de investigação e resolução de problemas.",
+    "pdf": "../assets/pdf-ebooks/A Lógica do Detetive.pdf"
+  }
+]

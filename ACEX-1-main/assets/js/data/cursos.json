@@ -1,0 +1,20 @@
+[
+  {
+    "imagem": "https://i.postimg.cc/h41wR9fh/capa-playlist.png",
+    "categoria": "Tecnologia",
+    "titulo": "HTML e CSS para o Desenvolvimento Web",
+    "descricao": "Curso de HTML e CSS para desenvolvimento de projetos reais.",
+    "horas": "3",
+    "link": "dweb",
+    "destaque": true
+  },
+  {
+    "imagem": "https://i.postimg.cc/brr1McGX/capa-playlist-(2).png",
+    "categoria": "Tecnologia",
+    "titulo": "Introdução à Programação Python",
+    "descricao": "Curso introdutório à linguagem de programação Python.",
+    "horas": "2",
+    "link": "python",
+    "destaque": true
+  }
+]
