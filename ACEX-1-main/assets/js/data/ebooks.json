@@ -6,7 +6,7 @@
     "categoria": "Tecnologia",
     "destaque": true,
     "paginas": "74",
-    "imagem": "../assets/imgs/DescomplicandoALogicaDeProgramacao.png",
+    "imagem": "./assets/imgs/DescomplicandoALogicaDeProgramacao.png",
     "descricao": "Aprenda os fundamentos do pensamento computacional, algoritmos e estruturas básicas para dar os primeiros passos na programação.",
     "pdf": "../assets/pdf-ebooks/DescomplicandoaLógicadeProgramação.pdf"
   },
@@ -17,7 +17,7 @@
     "categoria": "Tecnologia",
     "destaque": true,
     "paginas": "61",
-    "imagem": "../assets/imgs/Git e Github.png",
+    "imagem": "./assets/imgs/Git e Github.png",
     "descricao": "Guia prático de versionamento de código, controle de alterações e trabalho colaborativo utilizando Git e GitHub.",
     "pdf": "../assets/pdf-ebooks/GiteGithub.pdf"
   },
@@ -28,7 +28,7 @@
     "categoria": "Tecnologia",
     "destaque": true,
     "paginas": "47",
-    "imagem": "../assets/imgs/Boas Práticas de Segurança Digital.png",
+    "imagem": "./assets/imgs/Boas Práticas de Segurança Digital.png",
     "descricao": "Dicas essenciais para proteger seus dados pessoais, senhas, redes sociais e dispositivos no dia a dia digital.",
     "pdf": "../assets/pdf-ebooks/Boas Práticas de Segurança Digital.pdf"
   },
@@ -39,7 +39,7 @@
     "categoria": "Tecnologia",
     "destaque": true,
     "paginas": "46",
-    "imagem": "../assets/imgs/Capa_ALógicadoDetetiveDesvendandoojavascript-1.png",
+    "imagem": "./assets/imgs/Capa_ALógicadoDetetiveDesvendandoojavascript-1.png",
     "descricao": "Explore os conceitos fundamentais do JavaScript por meio de desafios práticos de investigação e resolução de problemas.",
     "pdf": "../assets/pdf-ebooks/A Lógica do Detetive.pdf"
   }

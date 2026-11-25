@@ -86,6 +86,8 @@ function gerarCard(ebook) {
         .toLowerCase()
         .replace(/\s+/g, '-');
 
+    const caminhoImagem = ebook.imagem.replace('./assets/', '../assets/');
+
     return `
         <div class="card bg-senary" data-pdf="${ebook.pdf}">
             <span class="tag ${tagColor}">
@@ -94,7 +96,7 @@ function gerarCard(ebook) {
 
             <img
                 class="card-image"
-                src="${ebook.imagem}"
+                src="${caminhoImagem}"
                 alt="${ebook.titulo}"
             >
 
